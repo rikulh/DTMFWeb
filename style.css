@@ -1,0 +1,20 @@
+
+.container {
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px 100px;
+}
+.btn {
+	color: white;
+	background-color: #0846f7;
+	margin: 10px;
+	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	border-radius: 10px;
+}
+.btn:active {
+	color: white;
+	background-color: #04237c;
+}
